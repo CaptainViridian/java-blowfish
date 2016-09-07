@@ -31,7 +31,6 @@ public class Encryption {
 	}
 
 	private static String doCrypto(int cipherMode, File entradaArquivo, File saidaArquivo) throws Exception {
-
 		Key secretKey = new SecretKeySpec(keyString.getBytes(), ALGORITHM);
 		Cipher cipher = Cipher.getInstance(ALGORITHM);
 		cipher.init(cipherMode, secretKey);

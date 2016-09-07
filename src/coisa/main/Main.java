@@ -9,14 +9,14 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-public class Main extends Application implements Runnable {
+public class Main extends Application {
 
 	private String path;
 
 	private StackPane mainPane = new StackPane();
 
 	private Button encryptBt = new Button("Criptografar");
-	private Button decryptBt = new Button("Desriptografar");
+	private Button decryptBt = new Button("Descriptografar");
 
 	public static void main(String[] args) {
 		launch();
